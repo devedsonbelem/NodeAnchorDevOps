@@ -1,0 +1,30 @@
+{
+  "name": "gateway",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Introdução ao Kubernetes com Node e Anchor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devedsonbelem/NodeAnchorDevOps.git"
+  },
+  "author": "Edson Belem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devedsonbelem/NodeAnchorDevOps.git/issues"
+  },
+  "homepage": "https://github.com/devedsonbelem/NodeAnchorDevOps.git#readme",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.5.0"
+  },
+  "dependencies": {
+    "express": "4.15.3"
+  }
+}
